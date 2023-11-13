@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+h1{
+	text-align: center;
+}
+
+
+table{
+    border: 1px solid black;
+	width: 600px;	
+}
+
+#table-1 tr>td:nth-child(2){
+	text-align: center;  
+    /* y is this not working? */
+}
+
+/* .center {
+    text-align: center;
+} */
+
+.right{
+    text-align: right;
+}
+
+#table-3 tr:nth-child(odd){
+    background-color: green;
+    height: 10px;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#table-3, #table-2 {
+    margin-top: 50px;;
+}
+
+#t-image{
+    text-align: center;
+}
